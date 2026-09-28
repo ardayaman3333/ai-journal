@@ -1,0 +1,20 @@
+# Sanal ortam (venv) — herkes kendi bilgisayarında yeniden oluşturur
+.venv/
+
+# Python'un otomatik ürettiği dosyalar
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gizli bilgiler (API anahtarları vb.) asla repoya girmez
+.env
+
+# Editör / işletim sistemi
+.vscode/
+Thumbs.db
+
+# Karalama dosyaları (video sırasında birlikte yazılan kod) — günlüğe girmez
+scratch*.py
+
